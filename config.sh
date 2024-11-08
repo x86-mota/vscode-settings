@@ -4,7 +4,7 @@
 # Defining variables
 # ==================================================
 TARGET_DIR="$HOME/.config/Code/User"
-FILE="./settings.json"
+SETTINGS_URL="https://raw.githubusercontent.com/x86-mota/vscode-settings/refs/heads/main/settings.json"
 EXT_LIST=(
     postman.postman-for-vscode
     ms-azuretools.vscode-docker
@@ -37,7 +37,7 @@ function install_ext() {
 # ==================================================
 if is_installed code; then
     mkdir -p "${TARGET_DIR}"
-    cp "${FILE}" "${TARGET_DIR}"
+    curl -fsSL -o "${TARGET_DIR}/settings.json" "${SETTINGS_URL}"
 
     for ext in "${EXT_LIST[@]}"; do
         install_ext "${ext}"
