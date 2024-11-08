@@ -1,5 +1,6 @@
 # About
-This script automates the process of configuring Visual Studio Code (VSCode) and installs useful extensions to improve productivity in my development environment.
+This script automates the process of configuring Visual Studio Code (VSCode) and 
+installs useful extensions to improve productivity in my development environment.
 
 <br>
 
