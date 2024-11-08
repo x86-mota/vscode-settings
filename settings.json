@@ -15,6 +15,7 @@
     "editor.fontLigatures": true,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
+    "editor.rulers": [80, 120],
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "files.autoSave": "afterDelay",
     "telemetry.telemetryLevel": "off",
